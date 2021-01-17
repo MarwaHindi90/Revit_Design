@@ -646,6 +646,12 @@ input#palceholder-img:focus {
 
 .services .card:hover .heart_animation {
     transform: rotate(360deg);
+    background-color: var(--main-color);
+    border: none;
+}
+
+.services .card:hover .heart_animation a {
+    color: #fff;
 }
 
 .services .btn {
@@ -2037,6 +2043,8 @@ span.discount {
 .payment-ul li {
     display: inline-block;
     margin-right: 5px;
+    margin: 0;
+    padding: 0 5px;
 }
 
 .item-view {
@@ -2045,7 +2053,158 @@ span.discount {
 }
 
 
-/* .font_20,
-.font_20 span {
-    font-size: 20px !important;
-} */
+/*   05 - Footer Styles            */
+
+.top-footer {
+    background-color: #141414;
+    padding: 40px;
+    color: #ffffff;
+}
+
+.logo_filter {
+    height: 70px;
+    margin-bottom: 10px;
+    filter: brightness(0);
+    -webkit-filter: brightness(0);
+}
+
+.top-footer h4 {
+    color: #ffffff;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contactinfo-ul li {
+    color: #ffffff;
+    text-align: right;
+    display: block !important;
+    padding: .5rem 0rem;
+}
+
+.contactinfo-ul li p {
+    color: #ffffff;
+    font-size: 15px;
+    /*float: left;*/
+}
+
+.contactinfo-ul li i {
+    border: 1px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    float: right;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: var(--main-color);
+}
+
+.footer-menu {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.footer-menu li a {
+    text-align: right;
+    font-size: 16px;
+    padding-right: 0;
+    color: #ffffff;
+}
+
+.footer-menu li a:hover {
+    color: var(--main-color);
+}
+
+.social-icon li {
+    float: none;
+    margin-right: 12px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.social-icon a {
+    width: 35px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    background: #ffffff;
+    color: #333333;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+.social-icon a:hover {
+    background: #e5c12f;
+    color: #ffffff;
+}
+
+.android-app {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.android-app a img {
+    height: auto;
+}
+
+.android-app div,
+.android-app a {
+    display: inline-block;
+}
+
+.main-footer {
+    background-color: var(--main-color);
+    padding: 10px;
+}
+
+.copyrights {
+    text-align: right;
+    color: #ffffff;
+}
+
+.copyrights p {
+    color: #ffffff;
+}
+
+.shipping_company img {
+    max-width: 50px !important;
+    margin-top: 15px;
+}
+
+.jvFDcV {
+    width: 50px;
+    height: 50px;
+    order: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    z-index: 200;
+    display: block;
+    border: 0px;
+    background: rgb(77, 194, 71) !important;
+}
+
+.hasyTc {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: -1.6em;
+    left: -0.5em;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 11px;
+    line-height: 11px;
+    width: 60px;
+    border: 0px;
+    max-width: inherit;
+    color: rgb(175, 175, 175) !important;
+}
